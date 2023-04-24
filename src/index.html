@@ -7,7 +7,111 @@
   <meta name="author" content="Максим Акимов">
   <title></title>
 </head>
-<body class="page">
-
+<body class="layout">
+  <header class="page header">
+    <nav class="menu">
+      <ul class="list menu-list">
+        <li class="menu-list__item">
+          <a href="#" class="link menu-list__link">Покрытия и градиенты</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#" class="link menu-list__link">Велосипеды</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#" class="link menu-list__link">Тренировки</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="header-container">
+      <h1 class="heading heading_style_title header-container__heading">Шоссе, ТТ и&nbsp;Грэвел</h1>
+      <p class="paragraph header-container__paragraph">
+        Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с
+        выбором велосипеда и отправиться в путь.
+      </p>
+      <a href="#" class="btn btn_style_primary">Подробнее</a>
+      <div class="explanation">Cannondale Systemsix</div>
+      <div class="main-image"></div>
+    </section>
+  </header>
+  <main class="page main">
+    <section class="section section_type_quote">
+      <img src="#" alt="" class="image">
+      <blockquote class="heading heading_style_subtitle"></blockquote>
+      <p class="author">Эдди Меркс</p>
+      <p class="profession">Велогонщик</p>
+    </section>
+    <section class="section section_type_highway">
+      <h2 class="heading heading_style_subtitle">Шоссе</h2>
+      <p class="paragraph">
+        На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят
+        в командном пелотоне, но тренироваться можно и самостоятельно.
+      </p>
+      <div class="gallery">
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <img src="#" alt="" class="gallery__img">
+          </li>
+        </ul>
+        <button class="btn gallery__btn gallery__btn_style_prev"></button>
+        <button class="btn gallery__btn gallery__btn_style_next"></button>
+      </div>
+    </section>
+    <section class="section section_type_bicycles">
+      <h2 class="heading heading_style_subtitle">Велосипеды</h2>
+      <ul class="links-list">
+        <li class="links-list__item">
+          <a href="#" class="link links-list__link links-list__link_active">Шоссе</a>
+        </li>
+        <li class="links-list__item">
+          <a href="#" class="link links-list__link">Грэвел</a>
+        </li>
+        <li class="links-list__item">
+          <a href="#" class="link links-list__link">ТТ</a>
+        </li>
+      </ul>
+      <ul class="cards">
+        <li class="cards__item">
+          <img src="#" alt="" class="cards__img">
+          <p class="cards__title">Cervelo Caledonia-5</p>
+        </li>
+        <li class="cards__item">
+          <img src="#" alt="" class="cards__img">
+          <p class="cards__title">Cannondale Systemsix Himod</p>
+        </li>
+        <li class="cards__item">
+          <img src="#" alt="" class="cards__img">
+          <p class="cards__title">Trek Domane SL-7</p>
+        </li>
+      </ul>
+    </section>
+    <section class="section section_type_training">
+      <h2 class="heading heading_style_subtitle">Велосипеды</h2>
+      <p class="paragraph">
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет
+        приложение Strava, а также это приложение позволит построить тренировочный план.
+      </p>
+      <ul class="links-list">
+        <li class="links-list__item">
+          <a href="#" class="links-list__link links-list__link_active">Strava</a>
+        </li>
+        <li class="links-list__item">
+          <a href="#" class="links-list__link">Komoot</a>
+        </li>
+      </ul>
+      <img src="#" alt="" class="image">
+    </section>
+  </main>
+  <footer class="page footer">
+    <form action="#" class="subscription-form">
+      <h2 class="heading heading_style_subtitle">Подпишитесь на рассылку —</h2>
+      <input type="email" class="subscription__input" name="email" id="email" placeholder="Ваш e-mail">
+      <button class="btn subscription__btn"></button>
+    </form>
+    <p class="copyright">© Road Club 2021</p>
+    <div class="theme-switcher">
+      <input type="checkbox" class="theme-switcher__input" name="themeSwitcher" id="themeSwitcher">
+      <label for="themeSwitcher" class="theme-switcher__label"></label>
+    </div>
+  </footer>
 </body>
 </html>

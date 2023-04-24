@@ -1,0 +1,5 @@
+.menu-list {
+  column-gap: 34px;
+  display: flex;
+  flex-wrap: nowrap;
+}

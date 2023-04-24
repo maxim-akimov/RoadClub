@@ -1,0 +1,14 @@
+.btn_style_primary {
+  background: #24B47E;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding: 16px 10px;
+  min-width: 160px;
+  max-width: min-content;
+  box-sizing: border-box;
+}

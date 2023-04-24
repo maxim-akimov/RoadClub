@@ -1,0 +1,11 @@
+.menu {
+  background: #F4F4F4;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  padding: 28px 120px 28px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}

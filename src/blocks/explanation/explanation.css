@@ -1,0 +1,23 @@
+.explanation {
+  color: #151515;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  position: relative;
+  max-width: 356px;
+  display: flex;
+  align-items: center;
+  padding-top: 167px;
+}
+
+.explanation::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #D7D4D4;
+  width: 132px;
+  margin-left: 30px;
+  position: relative;
+  top: 0
+}

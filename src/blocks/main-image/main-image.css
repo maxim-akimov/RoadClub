@@ -1,0 +1,10 @@
+.main-image {
+  background: url(../../images/main-image.svg) no-repeat center center, #F4F4F4;
+  border-radius: 20px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  height: 300px;
+  position: absolute;
+  width: 440px;
+  right: 370px;
+  bottom: 164px;
+}
