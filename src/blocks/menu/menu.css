@@ -11,3 +11,7 @@
   margin: 0 auto;
   max-width: 1440px;
 }
+
+.layout_theme_dark .menu {
+  background: #333333;
+}

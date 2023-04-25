@@ -8,4 +8,10 @@
   opacity: 0.7;
   padding: 0;
   width: 100%;
+  color: #222;
+}
+
+.layout_theme_dark .paragraph {
+  color: #E6E6E6;
+  opacity: .7;
 }

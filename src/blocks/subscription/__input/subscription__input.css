@@ -1,3 +1,24 @@
 .subscription__input {
+  background: transparent;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #8D8D8D;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  outline: none;
+  outline-offset: 0;
+  padding: 11px 0 11px 20px;
+  width: 100%;
+}
 
+.subscription__input:hover::placeholder {
+  color: #151515;
+}
+
+.subscription__input:focus {
+  border: 1px solid rgba(199, 199, 199, 0.7);
+  color: #151515;
 }

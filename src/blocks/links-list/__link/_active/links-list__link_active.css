@@ -1,3 +1,5 @@
 .links-list__link_active {
-
+  color: #151515;
+  font-weight: 600;
+  opacity: 1;
 }

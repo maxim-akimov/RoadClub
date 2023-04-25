@@ -1,3 +1,27 @@
 .theme-switcher__label {
-  
+  background: #FFFFFF;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  display: block;
+  height: 24px;
+  padding: 2px 0;
+  position: relative;
+  width: 44px;
+}
+
+.theme-switcher__label::after {
+  background: #24B47E;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 20px;
+  left: 0;
+  margin: 0 2px;
+  position: absolute;
+  transition: left .2s ease-in-out;
+  width: 20px;
+}
+
+.theme-switcher__input:checked + .theme-switcher__label::after {
+  left: calc(100% - 24px);
 }

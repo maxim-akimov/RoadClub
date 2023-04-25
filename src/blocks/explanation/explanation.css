@@ -21,3 +21,11 @@
   position: relative;
   top: 0
 }
+
+.layout_theme_dark .explanation {
+  color: #fff;
+}
+
+.layout_theme_dark .explanation::after {
+  background: #707070;
+}

@@ -1,0 +1,10 @@
+.cards__img-container {
+  align-items: center;
+  background: #F4F4F4;
+  border-radius: 20px;
+  box-shadow: 0 20px 140px rgba(0, 0, 0, .06);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}

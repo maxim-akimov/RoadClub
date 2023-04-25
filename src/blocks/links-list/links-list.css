@@ -1,8 +1,6 @@
 .links-list {
-  justify-self: end;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   column-gap: 40px;
-  align-items: flex-end;
 }

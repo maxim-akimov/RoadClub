@@ -9,3 +9,7 @@
 .menu-list__link:hover {
   opacity: .75;
 }
+
+.layout_theme_dark .menu-list__link {
+  color: #fff;
+}

@@ -9,3 +9,8 @@
   padding-left: 80px;
   display: flex;
 }
+
+.layout_theme_dark .profession {
+  color: #E5E5E5;
+  opacity: .7;
+}

@@ -1,3 +1,7 @@
 .gallery__btn_style_prev {
   background: url(../../../../images/btn-nav-prev-icon.svg) no-repeat center center, #EBEBEB;
 }
+
+.layout_theme_dark .gallery__btn_style_prev {
+  background: url(../../../../images/btn-nav-prev-icon-dark-theme.svg) no-repeat center center, #434343;
+}

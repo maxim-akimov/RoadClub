@@ -8,3 +8,7 @@
   padding-left: 80px;
   display: flex;
 }
+
+.layout_theme_dark .author {
+  color: #fff;
+}

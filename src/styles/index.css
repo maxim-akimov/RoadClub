@@ -2,6 +2,8 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/layout/layout.css);
+@import url(../blocks/layout/_theme/layout_theme_dark.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -29,6 +31,7 @@
 @import url(../blocks/heading/_style/heading_style_subtitle.css);
 @import url(../blocks/heading/_position/heading_position_highway.css);
 @import url(../blocks/heading/_position/heading_position_bicycles.css);
+@import url(../blocks/heading/_position/heading_position_footer.css);
 
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/_style/btn_style_primary.css);
@@ -49,6 +52,7 @@
 
 @import url(../blocks/image/image.css);
 @import url(../blocks/image/_position/image_position_quote.css);
+@import url(../blocks/image/_position/image_position_training.css);
 
 @import url(../blocks/author/author.css);
 
@@ -66,10 +70,14 @@
 
 @import url(../blocks/links-list/links-list.css);
 @import url(../blocks/links-list/__item/links-list__item.css);
+@import url(../blocks/links-list/__link/links-list__link.css);
 @import url(../blocks/links-list/__link/_active/links-list__link_active.css);
+@import url(../blocks/links-list/_position/links-list_position_bicycle.css);
+@import url(../blocks/links-list/_position/links-list_position_training.css);
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__img-container/cards__img-container.css);
 @import url(../blocks/cards/__img/cards__img.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
@@ -84,6 +92,8 @@
 @import url(../blocks/theme-switcher/theme-switcher.css);
 @import url(../blocks/theme-switcher/__label/theme-switcher__label.css);
 @import url(../blocks/theme-switcher/__input/theme-switcher__input.css);
-@import url(../blocks/theme-switcher/__input/_checked/theme-switcher__input_checked.css);
+@import url(../blocks/theme-switcher/__state-icon/theme-switcher__state-icon.css);
+@import url(../blocks/theme-switcher/__state-icon/_style/theme-switcher__state-icon_style_bright.css);
+@import url(../blocks/theme-switcher/__state-icon/_style/theme-switcher__state-icon_style_dark.css);
 
 /*@import url(../blocks/);*/

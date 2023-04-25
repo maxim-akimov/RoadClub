@@ -1,0 +1,7 @@
+.image_position_training {
+  width: 100%;
+  max-width: 580px;
+  grid-row: 1 / -1;
+  grid-column: 2;
+
+}

@@ -1,3 +1,10 @@
 .subscription__btn {
+  bottom: 17px;
+  display: none;
+  position: absolute;
+  right: 22px;
+}
 
+.subscription__input:focus + .subscription__btn {
+  display: block;
 }

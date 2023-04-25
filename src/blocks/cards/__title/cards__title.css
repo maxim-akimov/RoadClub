@@ -1,3 +1,9 @@
 .cards__title {
-
+  color: #151515;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+  padding: 22px 0 0 0;
 }

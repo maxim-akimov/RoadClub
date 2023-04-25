@@ -1,3 +1,5 @@
 .cards__img {
-  
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1 / 1;
 }
