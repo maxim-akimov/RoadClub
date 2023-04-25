@@ -1,0 +1,7 @@
+.gallery__navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+  padding-left: 120px;
+}

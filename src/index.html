@@ -35,30 +35,43 @@
   </header>
   <main class="page main">
     <section class="section section_type_quote">
-      <img src="#" alt="" class="image">
-      <blockquote class="heading heading_style_subtitle"></blockquote>
-      <p class="author">Эдди Меркс</p>
-      <p class="profession">Велогонщик</p>
+      <img src="<%=require('./images/quote-image.svg')%>" alt="" class="image image_position_quote">
+        <blockquote class="heading heading_style_subtitle">
+          «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+        </blockquote>
+      <cite class="origin">
+        <span class="author">Эдди Меркс</span>
+        <span class="profession">Велогонщик</span>
+      </cite>
     </section>
     <section class="section section_type_highway">
-      <h2 class="heading heading_style_subtitle">Шоссе</h2>
-      <p class="paragraph">
+      <h2 class="heading heading_style_title heading_position_highway">Шоссе</h2>
+      <p class="paragraph paragraph_position_highway">
         На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят
         в командном пелотоне, но тренироваться можно и самостоятельно.
       </p>
       <div class="gallery">
-        <ul class="gallery__list">
+        <ul class="list gallery__list">
           <li class="gallery__item">
-            <img src="#" alt="" class="gallery__img">
+            <img src="<%=require('./images/gallery-image-1.svg')%>" alt="" class="gallery__img">
+          </li>
+          <li class="gallery__item">
+            <img src="<%=require('./images/gallery-image-2.svg')%>" alt="" class="gallery__img">
           </li>
         </ul>
-        <button class="btn gallery__btn gallery__btn_style_prev"></button>
-        <button class="btn gallery__btn gallery__btn_style_next"></button>
       </div>
+      <ul class="list gallery__navbar">
+        <li class="gallery__navbar-item">
+          <button class="btn gallery__btn gallery__btn_style_prev"></button>
+        </li>
+        <li class="gallery__navbar-item">
+          <button class="btn gallery__btn gallery__btn_style_next"></button>
+        </li>
+      </ul>
     </section>
     <section class="section section_type_bicycles">
-      <h2 class="heading heading_style_subtitle">Велосипеды</h2>
-      <ul class="links-list">
+      <h2 class="heading heading_style_title heading_position_bicycles">Велосипеды</h2>
+      <ul class="list links-list">
         <li class="links-list__item">
           <a href="#" class="link links-list__link links-list__link_active">Шоссе</a>
         </li>

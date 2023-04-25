@@ -1,3 +1,7 @@
 .gallery {
-  
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 80px 0 50px 120px;
+  display: flex;
+  flex-direction: column;
 }

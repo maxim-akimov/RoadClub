@@ -1,0 +1,5 @@
+.image_position_quote {
+  width: 100%;
+  max-width: 650px;
+  grid-row: 1 / -1;
+}

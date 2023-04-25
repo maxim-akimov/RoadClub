@@ -1,3 +1,5 @@
 .gallery__img {
-
+  aspect-ratio: 6.5 / 4;
+  object-fit: cover;
+  width: 650px;
 }

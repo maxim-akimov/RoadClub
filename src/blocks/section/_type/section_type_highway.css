@@ -1,3 +1,5 @@
 .section_type_highway {
-
+  padding-left: 0;
+  padding-right: 0;
+  flex-direction: column;
 }
