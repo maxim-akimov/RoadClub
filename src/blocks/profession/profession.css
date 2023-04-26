@@ -1,13 +1,13 @@
 .profession {
   color: #222222;
+  display: flex;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 35px;
   margin: 0;
   opacity: 0.7;
   padding-left: 80px;
-  display: flex;
 }
 
 .layout_theme_dark .profession {

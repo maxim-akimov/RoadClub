@@ -1,3 +1,7 @@
 .theme-switcher__state-icon_style_dark {
   background: url(../../../../images/theme-switcher-dark-icon.svg) no-repeat center center;
 }
+
+.layout_theme_dark .theme-switcher__state-icon_style_dark {
+  background: url(../../../../images/theme-switcher-dark-icon-theme-dark.svg) no-repeat center center;
+}

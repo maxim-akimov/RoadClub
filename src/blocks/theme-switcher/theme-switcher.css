@@ -1,10 +1,10 @@
 .theme-switcher {
   align-items: center;
-  bottom: 66px;
-  column-gap: 22px;
+  bottom: 68px;
+  column-gap: 16px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   position: absolute;
-  right: 122px;
+  right: 120px;
 }

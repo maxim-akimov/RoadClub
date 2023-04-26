@@ -3,4 +3,6 @@
   grid-template-columns: auto max-content;
   grid-template-rows: 110px repeat(2, auto);
   max-height: 460px;
+  padding-bottom: 120px;
+  padding-top: 150px;
 }

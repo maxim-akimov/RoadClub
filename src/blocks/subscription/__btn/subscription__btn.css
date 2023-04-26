@@ -8,3 +8,7 @@
 .subscription__input:focus + .subscription__btn {
   display: block;
 }
+
+.layout_theme_dark .subscription__input:focus + .subscription__btn {
+  color: #fff;
+}

@@ -1,9 +1,9 @@
-.gallery__btn {
+.slider__btn {
   border-radius: 50%;
   height: 50px;
   width: 50px;
 }
 
-.gallery__btn:hover {
+.slider__btn:hover {
   opacity: .6;
 }

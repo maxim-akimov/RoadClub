@@ -1,6 +1,10 @@
 .footer {
   background: #EFEFEF;
   box-sizing: border-box;
-  padding: 60px 120px;
+  padding: 80px 120px 60px 120px;
   position: relative;
+}
+
+.layout_theme_dark .footer {
+  background: #2F2F2F;
 }

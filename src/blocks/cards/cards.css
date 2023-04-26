@@ -1,6 +1,6 @@
 .cards {
   column-gap: 30px;
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: nowrap;
   grid-column: 1 / -1;

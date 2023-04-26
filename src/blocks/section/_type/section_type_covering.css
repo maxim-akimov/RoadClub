@@ -1,5 +1,6 @@
-.section_type_highway {
+.section_type_covering {
   padding-left: 0;
   padding-right: 0;
   flex-direction: column;
+  overflow: hidden;
 }

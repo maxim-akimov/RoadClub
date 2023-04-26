@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 34px;
   text-align: right;
   color: #222222;
   opacity: 0.7;
@@ -10,4 +10,8 @@
 
 .links-list__link:hover {
   opacity: .6;
+}
+
+.layout_theme_dark .links-list__link {
+  color: #E5E5E5;
 }

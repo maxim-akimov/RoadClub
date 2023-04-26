@@ -25,3 +25,7 @@
 .theme-switcher__input:checked + .theme-switcher__label::after {
   left: calc(100% - 24px);
 }
+
+.layout_theme_dark .theme-switcher__label {
+  background: #545454;
+}

@@ -22,3 +22,16 @@
   border: 1px solid rgba(199, 199, 199, 0.7);
   color: #151515;
 }
+
+.layout_theme_dark .subscription__input {
+  border: 1px solid rgba(125, 125, 125, 0.5);
+}
+
+.layout_theme_dark .subscription__input:hover::placeholder {
+  color: #fff;
+}
+
+.layout_theme_dark .subscription__input:focus {
+  border: 1px solid #7D7D7D;
+  color: #fff;
+}

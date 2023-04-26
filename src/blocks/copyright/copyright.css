@@ -4,5 +4,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+  margin: 0;
   padding-top: 100px;
+}
+
+.layout_theme_dark .copyright {
+  color: #565656;
 }

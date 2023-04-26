@@ -1,0 +1,10 @@
+.gallery__item_label_tt::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 40px;
+  left: 0;
+  bottom: 16px;
+  position: absolute;
+  background: url(../../../../images/gallery-tt-label.svg) no-repeat left center;
+}

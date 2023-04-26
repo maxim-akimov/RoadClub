@@ -1,0 +1,11 @@
+.gallery__item_label_highway::before {
+  content: '';
+  display: block;
+  width: 107px;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  left: 0;
+  bottom: 16px;
+  position: absolute;
+  background: url(../../../../images/gallery-highway-label.svg) no-repeat left center;
+}

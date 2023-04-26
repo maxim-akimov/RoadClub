@@ -1,0 +1,12 @@
+.heading_style_form-title {
+  color: #151515;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  max-width: 229px;
+}
+
+.layout_theme_dark .heading_style_form-title {
+  color: #fff;
+}

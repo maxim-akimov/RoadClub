@@ -1,6 +1,5 @@
-.gallery__list {
+.slider {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  column-gap: 40px;
 }
