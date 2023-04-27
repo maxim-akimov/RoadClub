@@ -18,15 +18,13 @@
 
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/paragraph/_position/paragraph_position_covering.css);
+@import url(../blocks/paragraph/_position/paragraph_position_training.css);
 
 @import url(../blocks/menu-list/menu-list.css);
+@import url(../blocks/menu-list/_opened/menu-list_opened.css);
 @import url(../blocks/menu-list/__item/menu-list__item.css);
 @import url(../blocks/menu-list/__link/menu-list__link.css);
 @import url(../blocks/menu-list/__link/_active/menu-list__link_active.css);
-
-@import url(../blocks/header-container/header-container.css);
-@import url(../blocks/header-container/__heading/header-container__heading.css);
-@import url(../blocks/header-container/__paragraph/header-container__paragraph.css);
 
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_style/heading_style_title.css);
@@ -36,8 +34,14 @@
 @import url(../blocks/heading/_position/heading_position_bicycles.css);
 @import url(../blocks/heading/_position/heading_position_footer.css);
 
+@import url(../blocks/header-container/header-container.css);
+@import url(../blocks/header-container/__heading/header-container__heading.css);
+@import url(../blocks/header-container/__paragraph/header-container__paragraph.css);
+
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/_style/btn_style_primary.css);
+@import url(../blocks/btn/_style/btn_style_menu.css);
+@import url(../blocks/btn/_style/btn_style_menu-close.css);
 
 @import url(../blocks/explanation/explanation.css);
 

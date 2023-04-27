@@ -42,4 +42,10 @@
   width: 100%;
 }
 
+@media screen and (max-width: 900px) {
+  .btn_style_primary {
+    order: 4;
+    min-width: 100%;
+  }
+}
 

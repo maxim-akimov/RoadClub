@@ -18,14 +18,13 @@
 
 @media screen and (max-width: 1200px) {
   .paragraph {
-    max-width: 360px;
+    max-width: 400px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .paragraph {
-    max-width: 300px;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 18px;
   }
 }

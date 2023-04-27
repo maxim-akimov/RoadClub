@@ -3,3 +3,21 @@
   display: flex;
   flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 900px) {
+  .menu-list {
+    align-items: center;
+    background: #F4F4F4;
+    bottom: 0;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    row-gap: 32px;
+    top: 75px;
+    width: 100%;
+    padding-top: 70px;
+    display: none;
+  }
+}

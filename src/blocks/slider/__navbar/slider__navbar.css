@@ -5,3 +5,19 @@
   column-gap: 20px;
   padding-left: 120px;
 }
+
+@media screen and (max-width: 1200px) {
+  .slider__navbar {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider__navbar {
+    column-gap: 10px;
+    order: 0;
+    position: absolute;
+    right: 18px;
+    top: 87px;
+  }
+}

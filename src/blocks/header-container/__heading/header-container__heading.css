@@ -8,3 +8,10 @@
     max-width: 360px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .header-container__heading {
+    padding-bottom: 191px;
+    max-width: 284px;
+  }
+}

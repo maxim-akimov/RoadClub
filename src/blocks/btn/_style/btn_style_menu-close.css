@@ -1,0 +1,17 @@
+.btn_style_menu-close {
+  width: 22px;
+  height: 19px;
+  background: url(../../../images/menu-close-icon.svg) no-repeat center center;
+}
+
+@media screen and (min-width: 900px) {
+  .btn_style_menu-close {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .btn_style_menu-close {
+    display: block;
+  }
+}

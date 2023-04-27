@@ -9,3 +9,9 @@
 .layout_theme_dark .footer {
   background: #2F2F2F;
 }
+
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 40px 18px;
+  }
+}

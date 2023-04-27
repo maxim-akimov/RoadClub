@@ -16,3 +16,9 @@
 .layout_theme_dark .menu {
   background: #333333;
 }
+
+@media screen and (max-width: 900px) {
+  .menu {
+    padding: 28px 18px;
+  }
+}

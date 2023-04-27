@@ -3,3 +3,18 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  .header-container__paragraph {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-container__paragraph {
+    order: 3;
+    max-width: 284px;
+    padding-top: 77px;
+    padding-bottom: 40px;
+  }
+}
+

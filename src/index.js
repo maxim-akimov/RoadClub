@@ -9,7 +9,8 @@ new Slider({
   sliderSelector: '.slider',
   slideSelector: '.slider__slide',
   btnPrevClass: 'slider__btn_style_prev',
-  btnNextClass: 'slider__btn_style_next'
+  btnNextClass: 'slider__btn_style_next',
+  duration: 500
 }).start();
 
 

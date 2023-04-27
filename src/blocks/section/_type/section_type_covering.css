@@ -4,3 +4,10 @@
   flex-direction: column;
   overflow: hidden;
 }
+
+@media screen and (max-width: 900px) {
+  .section_type_covering {
+    padding: 40px 18px;
+    position: relative;
+  }
+}

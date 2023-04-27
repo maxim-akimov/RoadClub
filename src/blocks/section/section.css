@@ -1,6 +1,7 @@
 .section {
   display: flex;
   padding: 60px 120px 60px 120px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1200px) {
@@ -11,6 +12,15 @@
 
 @media screen and (max-width: 900px) {
   .section {
-    padding: 30px 60px 30px 60px;
+    padding: 40px 18px;
+  }
+
+  .section:before {
+    content: '';
+    display: block;
+    background: #E3E3E3;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 19px;
   }
 }

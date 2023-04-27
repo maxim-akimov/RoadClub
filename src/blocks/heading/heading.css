@@ -17,6 +17,6 @@
 
 @media screen and (max-width: 900px) {
   .heading {
-    padding-bottom: 25px;
+    padding: 0 0 40px 0;
   }
 }

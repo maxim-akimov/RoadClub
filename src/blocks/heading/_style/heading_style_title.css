@@ -10,3 +10,10 @@
     line-height: 50px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .heading_style_title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

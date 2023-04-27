@@ -1,3 +1,9 @@
 .slider__slide {
   transition: translate .5s ease-in-out;
+  flex: 0 0 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .slider__slide {
+  }
 }

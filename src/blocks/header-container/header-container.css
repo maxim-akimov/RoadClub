@@ -21,7 +21,9 @@
 
 @media screen and (max-width: 900px) {
   .header-container {
-    max-height: 200px;
-    padding: 40px 0 40px 60px;
+    padding: 40px 18px;
+    max-height: 100%;
+    background-size: auto 348px;
+    background-position: top 160px right 18px;
   }
 }

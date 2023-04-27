@@ -20,3 +20,11 @@
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .author {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 0;
+  }
+}

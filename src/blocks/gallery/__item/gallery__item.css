@@ -3,3 +3,13 @@
   overflow: hidden;
   position: relative;
 }
+
+.gallery__item:last-of-type {
+  margin-right: -20px;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery__item:last-of-type {
+    margin-right: 0;
+  }
+}

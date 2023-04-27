@@ -17,8 +17,16 @@
 
 @media screen and (max-width: 1200px) {
   .profession {
-    padding-left: 40px;
     font-size: 14px;
     line-height: 30px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profession {
+    font-size: 10px;
+    line-height: 16px;
+    padding-left: 0;
   }
 }

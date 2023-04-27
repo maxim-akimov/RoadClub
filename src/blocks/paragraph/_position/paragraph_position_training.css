@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+  .paragraph_position_training {
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paragraph_position_training {
+    max-width: 95%;
+  }
+}

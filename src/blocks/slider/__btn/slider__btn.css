@@ -7,3 +7,10 @@
 .slider__btn:hover {
   opacity: .6;
 }
+
+@media screen and (max-width: 900px) {
+  .slider__btn {
+    width: 24px;
+    height: 24px;
+  }
+}

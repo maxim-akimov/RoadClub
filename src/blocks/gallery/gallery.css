@@ -7,3 +7,16 @@
   overflow: hidden;
   padding: 80px 0 50px 120px;
 }
+
+@media screen and (max-width: 1200px) {
+  .gallery {
+    padding-left: 100px;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    padding: 0;
+  }
+}

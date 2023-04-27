@@ -3,3 +3,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 900px) {
+  .slider {
+    order: 1;
+  }
+}

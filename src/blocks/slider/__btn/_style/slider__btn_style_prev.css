@@ -5,3 +5,9 @@
 .layout_theme_dark .slider__btn_style_prev {
   background: url(../../../../images/btn-nav-prev-icon-dark-theme.svg) no-repeat center center, #434343;
 }
+
+@media screen and (max-width: 900px) {
+  .slider__btn_style_prev {
+    background-size: auto 10px;
+  }
+}

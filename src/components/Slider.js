@@ -2,12 +2,14 @@ export default class Slider {
   constructor({sliderSelector,
               slideSelector,
               btnPrevClass,
-              btnNextClass}) {
+              btnNextClass,
+              duration}) {
 
     this._sliderSelector = sliderSelector;
     this._slideSelector = slideSelector;
     this._btnPrevClass = btnPrevClass;
     this._btnNextClass = btnNextClass;
+    this._duration = duration;
 
     this._sliderEl = document.querySelector(this._sliderSelector);
     this._slides = this._sliderEl.querySelectorAll(this._slideSelector);
@@ -23,11 +25,12 @@ export default class Slider {
 
 
   _translateSlides(val) {
-    this._slides.forEach((slide) => {
+    this._currentSlideIdx += (val > 0) ? -1 : 1;
+
+    this._slides.forEach((slide, index) => {
       slide.style.translate = this._currentTransition + val + 'px';
     })
 
-    this._currentSlideIdx += (val > 0) ? -1 : 1;
     this._currentTransition += val;
   }
 
