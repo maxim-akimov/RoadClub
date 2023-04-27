@@ -15,3 +15,17 @@
   color: #E6E6E6;
   opacity: .7;
 }
+
+@media screen and (max-width: 1200px) {
+  .paragraph {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paragraph {
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -11,4 +11,5 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   width: 100%;
+  transition: background-color .2s linear;
 }

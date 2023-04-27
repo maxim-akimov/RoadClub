@@ -14,3 +14,11 @@
   color: #E5E5E5;
   opacity: .7;
 }
+
+@media screen and (max-width: 1200px) {
+  .profession {
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}

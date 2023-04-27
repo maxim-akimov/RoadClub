@@ -8,6 +8,7 @@
   letter-spacing: 1px;
   line-height: 18px;
   max-width: min-content;
+  min-height: 50px;
   min-width: 180px;
   overflow: hidden;
   padding: 16px 10px;
@@ -15,6 +16,7 @@
 }
 
 .btn_style_primary::before {
+  background: #24B47E;
   content: '';
   display: block;
   height: 100%;
@@ -22,7 +24,6 @@
   position: absolute;
   width: 100%;
   z-index: -2;
-  background: #24B47E;
 }
 
 .btn_style_primary::after {
@@ -32,11 +33,13 @@
   height: 100%;
   left: 0;
   position: absolute;
+  transition: width .25s ease-in-out;
   width: 0;
   z-index: -1;
-  transition: width .25s ease-in-out;
 }
 
 .btn_style_primary:hover::after {
   width: 100%;
 }
+
+

@@ -2,3 +2,9 @@
   max-width: 460px;
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .header-container__heading {
+    max-width: 360px;
+  }
+}

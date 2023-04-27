@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 80px 120px 60px 120px;
   position: relative;
+  transition: background-color .2s linear;
 }
 
 .layout_theme_dark .footer {

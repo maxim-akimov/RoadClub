@@ -29,3 +29,19 @@
 .layout_theme_dark .explanation::after {
   background: #707070;
 }
+
+@media screen and (max-width: 1200px) {
+  .explanation {
+    padding-top: 80px;
+  }
+
+  .explanation::after {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .explanation {
+    display: none;
+  }
+}

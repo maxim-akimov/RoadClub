@@ -1,7 +1,9 @@
 import './styles/index.css';
-/*
-import Slider from "./components/slider";
+
+import Slider from "./components/Slider";
 import BlocksToggle from "./components/BlocksToggle";
+import ThemeSwitcher from "./components/ThemeSwitcher";
+
 
 new Slider({
   sliderSelector: '.slider',
@@ -9,14 +11,8 @@ new Slider({
   btnPrevClass: 'slider__btn_style_prev',
   btnNextClass: 'slider__btn_style_next'
 }).start();
-*/
-const links = document.querySelector('a');
 
-links.addEventListener('click', (event) => {
-  // отменяем действие по умолчанию. Перехода по ссылке не будет
-  event.preventDefault()
-})
-/*
+
 new BlocksToggle({
   linkClass: 'links-list__link_type_card',
   activeLinkClass: 'links-list__link_active',
@@ -24,4 +20,8 @@ new BlocksToggle({
   openedBlockClass: 'cards_opened'
 }).init();
 
- */
+new ThemeSwitcher(
+  '.theme-switcher__input',
+  '.layout',
+  'layout_theme_dark'
+).init();

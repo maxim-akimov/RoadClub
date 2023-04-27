@@ -3,3 +3,9 @@
   object-fit: cover;
   width: 650px;
 }
+
+@media screen and (max-width: 1400px) {
+  .gallery__img {
+    max-width: 500px;
+  }
+}

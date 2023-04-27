@@ -8,3 +8,15 @@
 .layout_theme_dark .heading {
   color: #fff;
 }
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .heading {
+    padding-bottom: 25px;
+  }
+}

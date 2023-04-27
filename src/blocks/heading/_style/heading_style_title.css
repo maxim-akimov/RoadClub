@@ -3,3 +3,10 @@
   font-weight: 700;
   line-height: 60px;
 }
+
+@media screen and (max-width: 1200px) {
+  .heading_style_title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
