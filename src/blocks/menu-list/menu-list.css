@@ -19,5 +19,11 @@
     width: 100%;
     padding-top: 70px;
     display: none;
+    transition: background-color .2s linear;
+  }
+
+  .layout_theme_dark .menu-list {
+    background: #333333;
+    color: #fff
   }
 }

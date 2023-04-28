@@ -5,7 +5,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <meta content="Максим Акимов" name="author">
-  <title></title>
+  <title>RoadClub</title>
 </head>
 <body class="layout">
 <header class="page header">
@@ -29,14 +29,14 @@
       Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с
       выбором велосипеда и отправиться в путь.
     </p>
-    <a class="btn btn_style_primary" href="#">Подробнее</a>
+    <a class="btn btn_style_primary" href="#covering">Подробнее</a>
     <div class="explanation">Cannondale Systemsix</div>
     <div class="main-image"></div>
   </section>
 </header>
 <main class="page main">
   <section class="section section_type_quote">
-    <img alt="" class="image image_position_quote" src="<%=require('./images/quote-image.jpg')%>">
+    <img alt="Горная дорога" class="image image_position_quote" src="<%=require('./images/quote-image.jpg')%>">
     <blockquote class="heading heading_style_subtitle">
       «Катайся много или мало, долго или коротко, как хочешь - но катайся»
     </blockquote>
@@ -56,10 +56,10 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_highway">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
+            <img alt="Горный серпантин" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
+            <img alt="Лесная дорога" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
           </li>
         </ul>
       </li>
@@ -71,10 +71,10 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_gravel">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
+            <img alt="Лесная дорога" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
+            <img alt="Шоссе" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
           </li>
         </ul>
       </li>
@@ -86,20 +86,20 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_tt">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
+            <img alt="Шоссе" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
+            <img alt="Горный серпантин" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
           </li>
         </ul>
       </li>
     </ul>
-    <ul class="list slider__navbar">
-      <li class="slider__navbar-item">
-        <button class="btn slider__btn slider__btn_style_prev"></button>
+    <ul class="list slider-navbar">
+      <li class="slider-navbar__item">
+        <button class="btn slider-navbar__btn slider-navbar__btn_style_prev"></button>
       </li>
-      <li class="slider__navbar-item">
-        <button class="btn slider__btn slider__btn_style_next"></button>
+      <li class="slider-navbar__item">
+        <button class="btn slider-navbar__btn slider-navbar__btn_style_next"></button>
       </li>
     </ul>
   </section>
@@ -197,7 +197,7 @@
       </ul>
     </div>
     <div class="cards cards_type_tt">
-      <ul class="list cards__list cards_type_tt">
+      <ul class="list cards__list">
         <li class="cards__item cards__item_opened">
           <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9"
              target="_blank">
@@ -247,14 +247,14 @@
            target="_blank">Komoot</a>
       </li>
     </ul>
-    <img alt="" class="image image_position_training" src="<%=require('./images/training-image.jpg')%>">
+    <img alt="Лесная трасса" class="image image_position_training" src="<%=require('./images/training-image.jpg')%>">
   </section>
 </main>
 <footer class="page footer">
-  <form action="#" class="subscription-form">
+  <form action="#" class="subscription" name="subscriptionForm" id="subscriptionForm">
     <h2 class="heading heading_style_form-title heading_position_footer">Подпишитесь на рассылку —</h2>
-    <input class="subscription__input" id="email" name="email" placeholder="Ваш e-mail" required type="email">
-    <button class="btn subscription__btn" type="submit">ok</button>
+    <input class="subscription__input" id="emailInput" name="emailInput" placeholder="Ваш e-mail" required type="email">
+    <button class="btn subscription__btn" type="submit" name="submitBtn" id="submitBtn">ok</button>
   </form>
   <p class="copyright">© Road Club 2021</p>
   <div class="theme-switcher">
@@ -263,7 +263,7 @@
     <label class="theme-switcher__label" for="themeSwitcher"></label>
     <div class="theme-switcher__state-icon theme-switcher__state-icon_style_dark"></div>
   </div>
-  <dib class="logo"></dib>
+  <div class="logo"></div>
 </footer>
 </body>
 </html>

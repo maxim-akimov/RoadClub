@@ -47,7 +47,6 @@ export default class Slider {
 
 
   _showPrevSlide() {
-    console.log(654)
     // Если предыдущий слайд существует
     if ((this._currentSlideIdx - 1) >= 0 && this._slides.length) {
       //Получаем ширину текущего слайда

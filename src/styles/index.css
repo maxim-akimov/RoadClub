@@ -78,11 +78,12 @@
 @import url(../blocks/slider/__slide/_type/slider__slide_type_highway.css);
 @import url(../blocks/slider/__slide/_type/slider__slide_type_gravel.css);
 @import url(../blocks/slider/__slide/_type/slider__slide_type_tt.css);
-@import url(../blocks/slider/__btn/slider__btn.css);
-@import url(../blocks/slider/__btn/_style/slider__btn_style_prev.css);
-@import url(../blocks/slider/__btn/_style/slider__btn_style_next.css);
-@import url(../blocks/slider/__navbar/slider__navbar.css);
-@import url(../blocks/slider/__navbar-item/slider__navbar-item.css);
+
+@import url(../blocks/slider-navbar/slider-navbar.css);
+@import url(../blocks/slider-navbar/__item/slider-navbar__item.css);
+@import url(../blocks/slider-navbar/__btn/slider-navbar__btn.css);
+@import url(../blocks/slider-navbar/__btn/_style/slider-navbar__btn_style_prev.css);
+@import url(../blocks/slider-navbar/__btn/_style/slider-navbar__btn_style_next.css);
 
 @import url(../blocks/links-list/links-list.css);
 @import url(../blocks/links-list/__item/links-list__item.css);
@@ -107,13 +108,14 @@
 
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/subscription/subscription-form.css);
+@import url(../blocks/subscription/subscription.css);
 @import url(../blocks/subscription/__input/subscription__input.css);
 @import url(../blocks/subscription/__btn/subscription__btn.css);
 
 @import url(../blocks/copyright/copyright.css);
 
 @import url(../blocks/theme-switcher/theme-switcher.css);
+@import url(../blocks/theme-switcher/_visible/theme-switcher_visible.css);
 @import url(../blocks/theme-switcher/__label/theme-switcher__label.css);
 @import url(../blocks/theme-switcher/__input/theme-switcher__input.css);
 @import url(../blocks/theme-switcher/__state-icon/theme-switcher__state-icon.css);

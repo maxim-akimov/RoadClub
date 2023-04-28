@@ -4,6 +4,10 @@
   background: url(../../../images/menu-close-icon.svg) no-repeat center center;
 }
 
+.layout_theme_dark .btn_style_menu-close {
+  background: url(../../../images/menu-close-icon-theme-dark.svg) no-repeat center center;
+}
+
 @media screen and (min-width: 900px) {
   .btn_style_menu-close {
     display: none;

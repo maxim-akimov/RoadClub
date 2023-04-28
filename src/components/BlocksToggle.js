@@ -71,7 +71,7 @@ export default class BlocksToggle {
     this._resetActiveLink();
 
     this._setActiveLink(evt.target.value);
-    console.log(evt.target.value)
+
     this._openBlock(
       this._findBlock(evt.target.value)
     );
@@ -79,7 +79,6 @@ export default class BlocksToggle {
 
 
   _openBlock(block) {
-    console.log(block)
     if (block) {
       block.classList.add(this._openedBlockClass);
       this._openedBlock = block;

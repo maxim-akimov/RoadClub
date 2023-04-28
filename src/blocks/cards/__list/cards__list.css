@@ -1,8 +1,8 @@
 .cards__list {
+  display: flex;
   column-gap: 30px;
   flex-direction: row;
   flex-wrap: nowrap;
-  grid-column: 1 / -1;
   padding-top: 120px;
 }
 

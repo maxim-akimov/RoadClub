@@ -2,6 +2,7 @@
   display: none;
   flex-direction: column;
   row-gap: 20px;
+  grid-column: 1 / -1;
 }
 
 @media screen and (max-width: 900px) {

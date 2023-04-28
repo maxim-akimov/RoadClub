@@ -1,12 +1,13 @@
 .subscription__btn {
   bottom: 17px;
-  display: none;
+  visibility: hidden;
   position: absolute;
   right: 22px;
+  transition: visibility 0s .2s linear;
 }
 
 .subscription__input:focus + .subscription__btn {
-  display: block;
+  visibility: visible;
 }
 
 .layout_theme_dark .subscription__input:focus + .subscription__btn {
