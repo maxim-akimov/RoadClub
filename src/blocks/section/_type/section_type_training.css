@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 110px repeat(2, auto);
-  max-height: 460px;
   padding-bottom: 120px;
   padding-top: 150px;
 }
@@ -10,5 +9,7 @@
 @media screen and (max-width: 900px) {
   .section_type_training {
     padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
   }
 }

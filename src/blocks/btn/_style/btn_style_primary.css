@@ -46,6 +46,10 @@
   .btn_style_primary {
     order: 4;
     min-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    font-size: 13px;
+    line-height: 19px;
   }
 }
 

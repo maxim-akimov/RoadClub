@@ -1,8 +1,11 @@
 .cards {
-  column-gap: 30px;
   display: none;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  grid-column: 1 / -1;
-  padding-top: 120px;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards {
+    padding-top: 20px;
+  }
 }

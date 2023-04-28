@@ -15,3 +15,10 @@
 .layout_theme_dark .links-list__link {
   color: #E5E5E5;
 }
+
+@media screen and (max-width: 900px){
+  .links-list__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

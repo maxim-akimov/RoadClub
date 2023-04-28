@@ -3,3 +3,10 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
 }
+
+@media screen and (max-width: 900px) {
+  .section_type_bicycles {
+    display: flex;
+    flex-direction: column;
+  }
+}

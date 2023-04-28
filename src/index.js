@@ -18,7 +18,8 @@ new BlocksToggle({
   linkClass: 'links-list__link_type_card',
   activeLinkClass: 'links-list__link_active',
   blockClass: 'cards',
-  openedBlockClass: 'cards_opened'
+  openedBlockClass: 'cards_opened',
+  selectClass: 'links-select',
 }).init();
 
 new ThemeSwitcher(

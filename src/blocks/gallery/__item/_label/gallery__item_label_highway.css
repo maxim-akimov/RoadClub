@@ -8,4 +8,12 @@
   bottom: 16px;
   position: absolute;
   background: url(../../../../images/gallery-highway-label.svg) no-repeat left center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 900px) {
+  .gallery__item_label_highway::after {
+    width: 70px;
+    height: 28px;
+  }
 }

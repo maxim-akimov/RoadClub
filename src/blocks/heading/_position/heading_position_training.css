@@ -1,9 +1,9 @@
-.heading_position_bicycles {
+.heading_position_training {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 900px) {
-  .heading_position_bicycles {
+  .heading_position_training {
     padding-top: 20px;
     padding-bottom: 40px;
   }

@@ -8,3 +8,11 @@
   padding: 20px;
   position: relative;
 }
+
+@media screen and (max-width: 900px) {
+  .cards__img-container {
+    background: transparent;
+    box-shadow: none;
+    padding: 15px 15px 0 15px;
+  }
+}

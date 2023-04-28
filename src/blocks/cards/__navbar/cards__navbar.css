@@ -1,0 +1,12 @@
+.cards__navbar {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards__navbar {
+    display: flex;
+  }
+}

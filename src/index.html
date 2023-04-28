@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ru" class="scroll">
+<html class="scroll" lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="Максим Акимов">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <meta content="Максим Акимов" name="author">
   <title></title>
 </head>
 <body class="layout">
@@ -12,13 +12,13 @@
   <nav class="menu">
     <ul class="list menu-list">
       <li class="menu-list__item">
-        <a href="#covering" class="link menu-list__link">Покрытия и градиенты</a>
+        <a class="link menu-list__link" href="#covering">Покрытия и градиенты</a>
       </li>
       <li class="menu-list__item">
-        <a href="#bicycles" class="link menu-list__link">Велосипеды</a>
+        <a class="link menu-list__link" href="#bicycles">Велосипеды</a>
       </li>
       <li class="menu-list__item">
-        <a href="#training" class="link menu-list__link">Тренировки</a>
+        <a class="link menu-list__link" href="#training">Тренировки</a>
       </li>
     </ul>
     <button class="btn btn_style_menu"></button>
@@ -29,14 +29,14 @@
       Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с
       выбором велосипеда и отправиться в путь.
     </p>
-    <a href="#" class="btn btn_style_primary">Подробнее</a>
+    <a class="btn btn_style_primary" href="#">Подробнее</a>
     <div class="explanation">Cannondale Systemsix</div>
     <div class="main-image"></div>
   </section>
 </header>
 <main class="page main">
   <section class="section section_type_quote">
-    <img src="<%=require('./images/quote-image.jpg')%>" alt="" class="image image_position_quote">
+    <img alt="" class="image image_position_quote" src="<%=require('./images/quote-image.jpg')%>">
     <blockquote class="heading heading_style_subtitle">
       «Катайся много или мало, долго или коротко, как хочешь - но катайся»
     </blockquote>
@@ -56,10 +56,10 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_highway">
-            <img src="<%=require('./images/gallery-image-1.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img src="<%=require('./images/gallery-image-2.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
           </li>
         </ul>
       </li>
@@ -71,10 +71,10 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_gravel">
-            <img src="<%=require('./images/gallery-image-2.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-2.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img src="<%=require('./images/gallery-image-3.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
           </li>
         </ul>
       </li>
@@ -86,10 +86,10 @@
         </p>
         <ul class="list gallery">
           <li class="gallery__item gallery__item_label_tt">
-            <img src="<%=require('./images/gallery-image-3.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-3.jpg')%>">
           </li>
           <li class="gallery__item">
-            <img src="<%=require('./images/gallery-image-1.jpg')%>" alt="" class="gallery__img">
+            <img alt="" class="gallery__img" src="<%=require('./images/gallery-image-1.jpg')%>">
           </li>
         </ul>
       </li>
@@ -107,143 +107,163 @@
     <h2 class="heading heading_style_title heading_position_bicycles">Велосипеды</h2>
     <ul class="list links-list links-list_position_bicycle">
       <li class="links-list__item">
-        <a href="ervbrb" data-rel="cards_type_highway"
-           class="link links-list__link links-list__link_type_card links-list__link_active">Шоссе</a>
+        <a class="link links-list__link links-list__link_type_card links-list__link_active"
+           data-rel="cards_type_highway"
+           href="#">Шоссе</a>
       </li>
       <li class="links-list__item">
-        <a href="rtbrhtygwtb" data-rel="cards_type_gravel" class="link links-list__link links-list__link_type_card">Грэвел</a>
+        <a class="link links-list__link links-list__link_type_card" data-rel="cards_type_gravel" href="#">Грэвел</a>
       </li>
       <li class="links-list__item">
-        <a href="btrbrs" data-rel="cards_type_tt" class="link links-list__link links-list__link_type_card">ТТ</a>
+        <a class="link links-list__link links-list__link_type_card" data-rel="cards_type_tt" href="#">ТТ</a>
       </li>
     </ul>
-    <ul class="list cards cards_type_highway">
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-1.jpg')%>" alt="Велосипед Cervelo Caledonia-5"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Cervelo Caledonia-5</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-2.jpg')%>" alt="Велосипед Cannondale Systemsix Himod"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Cannondale Systemsix Himod</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-3.jpg')%>" alt="Велосипед Trek Domane SL-7" class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Trek Domane SL-7</p>
-      </li>
-    </ul>
-    <ul class="list cards cards_type_gravel">
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-4.jpg')%>" alt="Велосипед Cervelo Aspero GRX 810"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Cervelo Aspero GRX 810</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-5.jpg')%>" alt="Велосипед Specialized S-Works Diverge"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Specialized S-Works Diverge</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-6.jpg')%>" alt="Велосипед Cannondale Topstone Lefty 3"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Cannondale Topstone Lefty 3</p>
-      </li>
-    </ul>
-    <ul class="list cards cards_type_tt">
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-7.jpg')%>" alt="Велосипед Specialized S-Works Shiv"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Specialized S-Works Shiv</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-8.jpg')%>" alt="Велосипед BMC Timemachine 01 ONE"
-                 class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">BMC Timemachine 01 ONE</p>
-      </li>
-      <li class="cards__item">
-        <a href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q"
-           target="_blank">
-          <div class="cards__img-container">
-            <img src="<%=require('./images/bicycle-image-9.jpg')%>" alt="Велосипед Cervelo P-Series" class="cards__img">
-          </div>
-        </a>
-        <p class="cards__title">Cervelo P-Series</p>
-      </li>
-    </ul>
+    <select class="links-select" id="bicycleTypes" name="bicycleTypes">
+      <option value="cards_type_highway" selected>Шоссе</option>
+      <option value="cards_type_gravel">Грэвел</option>
+      <option value="cards_type_tt">ТТ</option>
+    </select>
+    <div class="cards cards_type_highway">
+      <ul class="list cards__list">
+        <li class="cards__item cards__item_opened" id="bicycleImage1">
+          <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Cervelo Caledonia-5" class="cards__img"
+                   src="<%=require('./images/bicycle-image-1.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Cervelo Caledonia-5</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Cannondale Systemsix Himod" class="cards__img"
+                   src="<%=require('./images/bicycle-image-2.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Cannondale Systemsix Himod</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Trek Domane SL-7" class="cards__img"
+                   src="<%=require('./images/bicycle-image-3.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Trek Domane SL-7</p>
+        </li>
+      </ul>
+      <ul class="list cards__navbar">
+        <li class="cards__navbar-item cards__navbar-item_active" rel=""></li>
+        <li class="cards__navbar-item" rel=""></li>
+        <li class="cards__navbar-item" rel=""></li>
+      </ul>
+    </div>
+    <div class="cards cards_type_gravel">
+      <ul class="list cards__list">
+        <li class="cards__item cards__item_opened">
+          <a href="https://www.sigmasports.com/item/Cervelo/Aspero-GRX-810-1x-Disc-Gravel-Bike-2021/RJDE"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Cervelo Aspero GRX 810" class="cards__img"
+                   src="<%=require('./images/bicycle-image-4.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Cervelo Aspero GRX 810</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/Specialized/S-Works-Diverge-Gravel-Bike-2020/NVJ9"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Specialized S-Works Diverge" class="cards__img"
+                   src="<%=require('./images/bicycle-image-5.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Specialized S-Works Diverge</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/Cannondale/Topstone-Carbon-Lefty-3-Disc-Gravel-Road-Bike-2021/PUC8"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Cannondale Topstone Lefty 3" class="cards__img"
+                   src="<%=require('./images/bicycle-image-6.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Cannondale Topstone Lefty 3</p>
+        </li>
+      </ul>
+    </div>
+    <div class="cards cards_type_tt">
+      <ul class="list cards__list cards_type_tt">
+        <li class="cards__item cards__item_opened">
+          <a href="https://www.sigmasports.com/item/Specialized/S-Works-Shiv-Disc-Limited-Edition-Triathlon-Bike-2019/K8P9"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Specialized S-Works Shiv" class="cards__img"
+                   src="<%=require('./images/bicycle-image-7.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Specialized S-Works Shiv</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/BMC/Timemachine-01-One-Force-Disc-TT-Triathlon-Bike-2021/S835"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед BMC Timemachine 01 ONE" class="cards__img"
+                   src="<%=require('./images/bicycle-image-8.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">BMC Timemachine 01 ONE</p>
+        </li>
+        <li class="cards__item">
+          <a href="https://www.sigmasports.com/item/Cervelo/P-Series-Ultegra-Di2-TT-Triathlon-Bike-2021/RM6Q"
+             target="_blank">
+            <div class="cards__img-container">
+              <img alt="Велосипед Cervelo P-Series" class="cards__img"
+                   src="<%=require('./images/bicycle-image-9.jpg')%>">
+            </div>
+          </a>
+          <p class="cards__title">Cervelo P-Series</p>
+        </li>
+      </ul>
+    </div>
   </section>
   <section class="section section_type_training" id="training">
-    <h2 class="heading heading_style_title">Тренировки</h2>
+    <h2 class="heading heading_style_title heading_position_training">Тренировки</h2>
     <p class="paragraph paragraph_position_training">
       Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет
       приложение Strava, а также это приложение позволит построить тренировочный план.
     </p>
     <ul class="list links-list links-list_position_training">
       <li class="links-list__item">
-        <a href="https://www.strava.com" target="_blank"
-           class="link links-list__link links-list__link_active">Strava</a>
+        <a class="link links-list__link links-list__link_active" href="https://www.strava.com"
+           target="_blank">Strava</a>
       </li>
       <li class="links-list__item">
-        <a href="https://www.komoot.com" target="_blank"
-           class="link links-list__link links-list__link_active">Komoot</a>
+        <a class="link links-list__link links-list__link_active" href="https://www.komoot.com"
+           target="_blank">Komoot</a>
       </li>
     </ul>
-    <img src="<%=require('./images/training-image.jpg')%>" alt="" class="image image_position_training">
+    <img alt="" class="image image_position_training" src="<%=require('./images/training-image.jpg')%>">
   </section>
 </main>
 <footer class="page footer">
   <form action="#" class="subscription-form">
     <h2 class="heading heading_style_form-title heading_position_footer">Подпишитесь на рассылку —</h2>
-    <input type="email" class="subscription__input" name="email" id="email" placeholder="Ваш e-mail" required>
-    <button type="submit" class="btn subscription__btn">ok</button>
+    <input class="subscription__input" id="email" name="email" placeholder="Ваш e-mail" required type="email">
+    <button class="btn subscription__btn" type="submit">ok</button>
   </form>
   <p class="copyright">© Road Club 2021</p>
   <div class="theme-switcher">
     <div class="theme-switcher__state-icon theme-switcher__state-icon_style_bright"></div>
-    <input type="checkbox" class="theme-switcher__input" name="themeSwitcher" id="themeSwitcher">
-    <label for="themeSwitcher" class="theme-switcher__label"></label>
+    <input class="theme-switcher__input" id="themeSwitcher" name="themeSwitcher" type="checkbox">
+    <label class="theme-switcher__label" for="themeSwitcher"></label>
     <div class="theme-switcher__state-icon theme-switcher__state-icon_style_dark"></div>
   </div>
+  <dib class="logo"></dib>
 </footer>
 </body>
 </html>

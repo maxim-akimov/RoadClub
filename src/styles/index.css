@@ -32,6 +32,7 @@
 @import url(../blocks/heading/_style/heading_style_form-title.css);
 @import url(../blocks/heading/_position/heading_position_covering.css);
 @import url(../blocks/heading/_position/heading_position_bicycles.css);
+@import url(../blocks/heading/_position/heading_position_training.css);
 @import url(../blocks/heading/_position/heading_position_footer.css);
 
 @import url(../blocks/header-container/header-container.css);
@@ -90,12 +91,19 @@
 @import url(../blocks/links-list/_position/links-list_position_bicycle.css);
 @import url(../blocks/links-list/_position/links-list_position_training.css);
 
+@import url(../blocks/links-select/links-select.css);
+
 @import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__list/cards__list.css);
 @import url(../blocks/cards/_opened/cards_opened.css);
 @import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__item/_opened/cards__item_opened.css);
 @import url(../blocks/cards/__img-container/cards__img-container.css);
 @import url(../blocks/cards/__img/cards__img.css);
 @import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__navbar/cards__navbar.css);
+@import url(../blocks/cards/__navbar-item/cards__navbar-item.css);
+@import url(../blocks/cards/__navbar-item/_active/cards__navbar-item_active.css);
 
 @import url(../blocks/footer/footer.css);
 
@@ -112,4 +120,4 @@
 @import url(../blocks/theme-switcher/__state-icon/_style/theme-switcher__state-icon_style_bright.css);
 @import url(../blocks/theme-switcher/__state-icon/_style/theme-switcher__state-icon_style_dark.css);
 
-/*@import url(../blocks/);*/
+@import url(../blocks/logo/logo.css);

@@ -4,3 +4,9 @@
   flex-wrap: nowrap;
   column-gap: 40px;
 }
+
+@media screen and (max-width: 900px) {
+  .links-list {
+    column-gap: 30px;
+  }
+}
