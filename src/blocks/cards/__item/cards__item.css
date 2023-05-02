@@ -3,14 +3,18 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .cards__item {
     align-items: center;
     background: #F4F4F4;
     border-radius: 20px;
     box-shadow: 0 20px 140px rgba(0, 0, 0, .06);
-    justify-content: center;
     display: none;
+    justify-content: center;
     padding-bottom: 16px;
+  }
+
+  .cards__item:hover {
+    box-shadow: 0 20px 140px rgba(0, 0, 0, 0.11);
   }
 }

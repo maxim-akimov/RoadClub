@@ -7,5 +7,6 @@
 
 @media screen and (max-width: 1400px) {
   .gallery__img {
+    max-width: 100%;
   }
 }

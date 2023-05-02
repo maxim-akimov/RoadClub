@@ -2,8 +2,10 @@
   background: #EFEFEF;
   box-sizing: border-box;
   padding: 80px 120px 60px 120px;
-  position: relative;
   transition: background-color .2s linear;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
 }
 
 .layout_theme_dark .footer {
@@ -12,6 +14,7 @@
 
 @media screen and (max-width: 900px) {
   .footer {
+    grid-template-rows: auto 38px;
     padding: 40px 18px 16px 18px;
   }
 }

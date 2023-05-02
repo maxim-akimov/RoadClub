@@ -26,9 +26,17 @@
 @media screen and (max-width: 900px) {
   .main-image {
     position: static;
+    width: 300px;
+    height: 200px;
+    order: 2;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-image {
     width: 234px;
     height: 160px;
     order: 2;
-    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
   }
 }

@@ -9,10 +9,18 @@
   position: relative;
 }
 
-@media screen and (max-width: 900px) {
+.cards__img-container:hover {
+  box-shadow: 0 20px 140px rgba(0, 0, 0, 0.11);
+}
+
+@media screen and (max-width: 600px) {
   .cards__img-container {
     background: transparent;
     box-shadow: none;
     padding: 15px 15px 0 15px;
+  }
+
+  .cards__img-container:hover {
+    box-shadow: none;
   }
 }

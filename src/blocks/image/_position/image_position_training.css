@@ -6,3 +6,9 @@
   order: 1;
   justify-self: end;
 }
+
+@media screen and (max-width: 900px) {
+  .image_position_training {
+    max-width: 100%;
+  }
+}

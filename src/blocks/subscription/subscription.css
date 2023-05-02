@@ -2,4 +2,12 @@
   max-width: 360px;
   position: relative;
   width: 100%;
+  grid-column: 1 / -1;
+  padding-bottom: 85px;
+}
+
+@media screen and (max-width: 900px) {
+  .subscription {
+    padding-bottom: 90px;
+  }
 }

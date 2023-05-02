@@ -1,20 +1,20 @@
 .theme-switcher {
   align-items: center;
-  bottom: 68px;
+  align-self: end;
   column-gap: 16px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  position: absolute;
-  right: 120px;
+  justify-self: end;
+  padding-bottom: 6px;
 }
 
 @media screen and (max-width: 900px) {
   .theme-switcher {
-    position: fixed;
-    z-index: 3;
     bottom: 36px;
-    right: calc(50% - 66px);
     display: none;
+    position: fixed;
+    right: calc(50% - 66px);
+    z-index: 3;
   }
 }

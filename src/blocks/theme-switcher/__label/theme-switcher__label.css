@@ -22,6 +22,10 @@
   width: 20px;
 }
 
+.theme-switcher__label:hover {
+  opacity: .6;
+}
+
 .theme-switcher__input:checked + .theme-switcher__label::after {
   left: calc(100% - 24px);
 }
