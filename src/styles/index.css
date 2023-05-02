@@ -38,6 +38,7 @@
 @import url(../blocks/header-container/header-container.css);
 @import url(../blocks/header-container/__heading/header-container__heading.css);
 @import url(../blocks/header-container/__paragraph/header-container__paragraph.css);
+@import url(../blocks/header-container/__main-image/header-container__main-image.css);
 
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/_style/btn_style_primary.css);

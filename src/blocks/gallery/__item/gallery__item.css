@@ -9,8 +9,12 @@
 }
 
 @media screen and (max-width: 900px) {
+  .gallery__item {
+    width: 100%;
+  }
+
   .gallery__item:last-of-type {
-    margin-right: 0;
     display: none;
+    margin-right: 0;
   }
 }

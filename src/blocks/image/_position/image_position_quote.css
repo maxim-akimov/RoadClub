@@ -3,3 +3,9 @@
   max-width: 650px;
   grid-row: 1 / -1;
 }
+
+@media screen and (max-width: 900px) {
+  .image_position_quote {
+    max-width: 100%;
+  }
+}

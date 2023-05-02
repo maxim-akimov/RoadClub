@@ -1,17 +1,12 @@
 .btn_style_menu {
-  width: 22px;
-  height: 19px;
   background: url(../../../images/menu-icon.svg) no-repeat center center;
+  display: none;
+  height: 19px;
+  width: 22px;
 }
 
 .layout_theme_dark .btn_style_menu {
   background: url(../../../images/menu-icon-theme-dark.svg) no-repeat center center;
-}
-
-@media screen and (min-width: 900px) {
-  .btn_style_menu {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 900px) {

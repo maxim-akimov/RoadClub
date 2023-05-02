@@ -4,11 +4,11 @@
 
 @media screen and (max-width: 900px) {
   .logo {
-    width: 38px;
-    height: 38px;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+    align-self: end;
     background: url(../../images/logo.svg) no-repeat center center;
+    display: block;
+    height: 38px;
+    justify-self: end;
+    width: 38px;
   }
 }

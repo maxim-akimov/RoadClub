@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+  .header-container__main-image {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-container__main-image {
+    margin-left: 0;
+  }
+}
